@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Questao 1</h1>
+            <form method="GET">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="nota1" placeholder="Digite a primeira nota.">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="nota2" placeholder="Digite a segunda nota.">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="nota3" placeholder="Digite a terceira nota.">
+                </div>
+                <button type="button" class="btn btn-warning" onclick="notaAluno()">Qual a media do aluno?</button>
+            </form>
+            <h1 id="resposta1"></h1>
+            <h1 id="resposta2"></h1>
+        </div>
+
+
+        <div id="jumbo_pai" class="jumbotron">
+            <h1>Questao 2</h1>
+            <button type="button" class="btn btn-warning" onclick="tabuada()">Tabuada do 7.</button>
+            <h1 id="resposta1"></h1>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Questao 3</h1>
+            <form method="GET">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="idadenadador" placeholder="Qual a idade do nadador?">
+                </div>
+                <button type="button" class="btn btn-warning" onclick="catNadador()">Qual minha categoria?</button>
+            </form>
+            <h1 id="categoria"></h1>
+        </div>
+
+
+        <div class="jumbotron">
+            <h1>Questao 4</h1>
+            <h2>Informe os tempos em segundos</h2>
+            <form method="GET">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="segundo1" placeholder="Digite o tempo do 1 nadador.">
+                </div>
+                <div class="form-group">
+
+                    <input type="number" class="form-control" id="segundo2" placeholder="Digite o tempo do 2 nadador.">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="segundo3" placeholder="Digite o tempo do 3 nadador.">
+                </div>
+                <button type="button" class="btn btn-warning" onclick="melhorTempo()">Qual a colocaçao?</button>
+            </form>
+
+            <h1 id="coloc1"></h1>
+            <h1 id="coloc2"></h1>
+            <h1 id="coloc3"></h1>
+        </div>
+
+        <div id="pai_imagens" class="jumbotron">
+            <h1>Questao 5</h1>
+            <button type="button" class="btn btn-warning" onclick="criarImagem()">Mostrar Album</button>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="scriptsAtividade7.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
